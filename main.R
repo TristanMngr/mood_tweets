@@ -1,15 +1,16 @@
-#install.packages("twitteR")
-#install.packages("tidyverse")
-#install.packages("reshape")
+install.packages("twitteR")
+install.packages("tidyverse")
+install.packages("reshape")
 
-#graph package
-#install.packages("ggplot2")
+graph package
+install.packages("ggplot2")
 
 # stringr and dplyr
 library(reshape)
 library(dplyr)
 library(stringr)
 library(twitteR)
+library(lubridate)
 library(ggplot2) 
 
 GROUP_DAYS_TWEETS = 10
@@ -22,10 +23,10 @@ GOOD_WORDS = c("good","happy", "thanks", "victory", "great", "honor", "win", "lo
 
 
 # Twitter's keys and tokens
-consumer_key <- "eOe2JPCErba99kpiUfobwkzhm"
-consumer_secret <- "qMg7pFLBdm8Sw88udVdXi2bsAmwk6coYK0nGoVRkoPHTeAc8Mn"
-access_token <- "1043294216426803201-dTUsI6F9EloRffgFBMsnfYRwMrxuWw"
-access_secret <- "RZCky5q4IkcNYoCvfq4wvcuJZHBmivRGmXDeddmFzNne1"
+consumer_key <- "your_consumer_key"
+consumer_secret <- "your_consumer_secret"
+access_token <- "your_access_token"
+access_secret <- "your_access_secret"
 
 
 # oauth twitter (with plugin twitteR)
