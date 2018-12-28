@@ -1,4 +1,4 @@
-# mood_tweets
+# Mood_tweets
 
 Analyse des différents tweets de Donald Trump pour connaître "l'état du pays"
 
